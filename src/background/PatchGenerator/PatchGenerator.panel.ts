@@ -18,6 +18,7 @@ export class PanelPatchGenerator extends FullscreenPatchGenerator<PanelPatchGene
                 height: 100%;
                 top: 0;
                 left: 0;
+                z-index: 99;
                 background-position: ${position};
                 background-repeat: no-repeat;
                 background-size: ${size};
